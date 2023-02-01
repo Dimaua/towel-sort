@@ -2,5 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  return [];
+ let res = [].concat(...matrix);
+ res.sort((a,b)=>a-b);
+  return res;
 }
